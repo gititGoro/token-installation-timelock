@@ -8,14 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/degen-vc/token-installation-timelock.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/degen-vc/token-installation-timelock/issues"
-  },
-  "homepage": "https://github.com/degen-vc/token-installation-timelock#readme",
+  "homepage": "",
   "dependencies": {
     "bignumber.js": "^9.0.0"
   }
