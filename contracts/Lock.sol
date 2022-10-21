@@ -214,7 +214,7 @@ contract Lock is Ownable {
     function initialize(address tokenAddress, address beneficiary, uint duration,uint durationMultiple,uint p)  public onlyOwner{
         release();
         require(paymentsRemaining == 0, 'cannot initialize during active vesting schedule');
-        require(duration>0 && p>0, 'epoch parameters must be positive');
+        require(p>0, 'epoch parameters must be positive');
         _token = IERC20(tokenAddress);
         _beneficiary = beneficiary;
         if(duration<=uint(period.biannual)){
